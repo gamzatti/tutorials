@@ -177,7 +177,16 @@ Add an id `resources` to the outer `<div>`
 
 ### Styling the toolbar
 
-First let's remove the bullet from the list of links
+First let's change the background colour.
+
+```css
+#resources {
+  background-color: #3D5167;
+  text-align: center;
+}
+```
+
+Now let's remove the bullet from the list of links.
 
 ```css
 #resources ul {
